@@ -4,6 +4,6 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),tailwindcss()],
-      base: "/FoodEat/","FoodEat":"git@github.com:mehdiselmi/FoodEat.git"
+      base: "/FoodEat/","git@github.com:mehdiselmi/FoodEat.git"
 
 })
