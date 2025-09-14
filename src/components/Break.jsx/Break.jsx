@@ -4,7 +4,7 @@ const Break = () => {
       <div className= "grid grid-cols-1 md:grid-cols-2 gap-14 sm:items-center sm:justify-between md:w-full">
         <div className=" max-w-full h-auto m-auto flex items-center justify-center ">
 
-        <img src="/potatoes.png"    />
+        <img src={`${import.meta.env.BASE_URL}potatoes.png`}   />
         </div>
         <div className="  md:pt-0 sm:pt-0 sm: ">
           <p className="md:font-semibold md:text-5xl text-xl pt-6">
