@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-@import "tailwindcss";
 
-@import "tailwindcss/utilities";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 
 
 @layer components{
     .primary-btn{
-        @apply hover:scale-105 hover:bg-white cursor-pointer border-2 border-transparent hover:text-[#1E88E5] transition duration-300 hover:border-blue-500 bg-[#1E88E5] text-white font-bold px-4 py-2 rounded-xl;
+        @apply hover:scale-105 hover:bg-white cursor-pointer border-2 border-transparent hover:text-[#27187E] transition duration-300 hover:border-[#27187E] bg-[#27187E] text-white font-bold px-4 py-2 rounded-xl;
     }
 
     .secondary-btn{
 
-    @apply hover:scale-110 duration-300 bg-[#E5E5E5] border-2 border-transparent cursor-pointer text-black font-bold px-4 py-2 rounded-xl
+    @apply hover:scale-110 duration-300 bg-white border-2 border-transparent cursor-pointer text-black font-bold px-4 py-2 rounded-xl
 }}
 @layer utilities {
     .img-shadow {
@@ -22,5 +25,6 @@
 *{
      font-family: "Poppins", sans-serif;
             box-sizing: border-box;
+            behavior: smooth;
 }
 
