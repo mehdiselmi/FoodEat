@@ -6,7 +6,7 @@ import "./index.css";
 import Services from "./components/Services/Services.jsx";
 const App = () => {
   const Style = {
-    backgroundImage: `url(/pizza1.webp)`,
+    backgroundImage: `url(${import.meta.env.BASE_URL}pizza1.webp)`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
