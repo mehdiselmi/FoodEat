@@ -1,21 +1,21 @@
 const Toplist = () => {
   const Data = [
     {
-      image: "/pizza1.webp",
+      image: {`${import.meta.env.BASE_URL}pizza1.webp`},
       rating: "⭐9.1",
       name: "Food Name 1",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       price: "$9.99",
     },
     {
-      image: "/pizza2.webp",
+      image: {`${import.meta.env.BASE_URL}pizza2.webp`},
       rating: "⭐8.2",
       name: "Food Name 2",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       price: "$9.99",
     },
     {
-      image: "/pizza3.webp",
+      image: {`${import.meta.env.BASE_URL}pizza3.webp`},
       rating: "⭐7.9",
       name: "Food Name 3",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
