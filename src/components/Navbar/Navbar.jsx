@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className="flex items-center ">
           <img
             className="w-[52px] rounded-full  bg-amber-300"
-            src="/undraw_young-man-avatar_wgbd.png"
+            src={`${import.meta.env.BASE_URL}undraw_young-man-avatar_wgbd.png`}
             alt="Profile"
           />
           <IoIosArrowDown className="cursor-pointer ml-2 text-[18px]" />
