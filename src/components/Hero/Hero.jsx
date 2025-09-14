@@ -27,7 +27,7 @@ const Hero = () => {
         <img
           className="animate-spin mx-auto w-[300px] md:w-[350px] md:mr-[100px] "
           style={{ animationDuration: "20s" }}
-          src="/MEXICANPIZZA.png"
+          src={`${import.meta.env.BASE_URL}MEXICANPIZZA.png`}
           alt="Pizza"
         />
       </div>
